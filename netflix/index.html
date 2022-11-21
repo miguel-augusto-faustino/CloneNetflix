@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">   
+    <link rel="stylesheet" href="responsive.css"> 
+    
+    <!--owl css-->
+    <link rel="stylesheet" href="owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl/owl.theme.default.min.css">
+
+
+
+    <title>Netflix Clone</title>
+</head>
+<body>
+    <div class="imagem_serie">
+        <header>
+        <div class="container">
+            <h2 class="logo"> NETFLIX </h2>
+            <nav>
+                <a href="#" class="inicio">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Bombando</a>
+                <a href="#">Minha Lista</a>
+                <a href="#">Navegar por idiomas</a>
+            </nav>
+            <div class="perfil">
+                <button onclick="mostrarPesquisa()" class="pesquisa">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <input class="caixapesquisa" type="textbox" id="caixaDePesquisas" placeholder="Títulos, gente e gêneros"> 
+
+                <button class="notif">
+                    <i class="fa-solid fa-bell"></i>
+                </button>
+                    <button class="iconeperfil">
+                    <img src="img/avatar.png" class="avatar">
+                    <i class="fa-solid fa-caret-down"></i>
+                </button>
+            </div>
+        </div>
+        </header>
+        <main>
+         <div class="principal">
+                <div class="container">
+                    <div class="netflix_n">
+                        <img src="img/netflix_n.png" height=70>                    
+                        <h3 class="n_serie">S É R I E</h3>
+                    </div>
+                    <img class="logo" src="img/callsaul_logo.png" height=200>
+                    <p class="descricao">Antes de se transformar no infame Saul Goodman, o advogado de Breaking Bad era mais inocente, mas não era santo.
+                    </p>
+                </div>
+                <div class="botoes">
+                    <button role="button" class="botaoplay">
+                        <i class="fa-solid fa-play"></i>
+                        Assistir
+                    </button>
+                    <button role="button" class="botaoinfo">
+                        <i class="fa-solid fa-circle-info"></i>
+                        Mais informações
+                    </button>
+                </div>
+            </div>
+        </main>
+
+        
+        <div class="carrossel-serie">
+            <h3 class="carrossel-txt">
+                Séries
+            </h3>
+            <div class="owl-carousel owl-theme">
+                <div class="item"> 
+                    <img class="box-serie"src="img/carrossel/miniS1.jpg">
+                </div>
+                <div class="item"> 
+                   <img class="box-serie"src="img/carrossel/miniS2.jpg">
+                </div>
+                <div class="item"> 
+                    <img class="box-serie"src="img/carrossel/miniS3.jpg">
+                </div>
+                <div class="item"> 
+                    <img class="box-serie"src="img/carrossel/miniS4.jpg">
+                </div>
+                <div class="item"> 
+                    <img class="box-serie"src="img/carrossel/miniS5.jpg">
+                </div>
+                <div class="item"> 
+                    <img class="box-serie"src="img/carrossel/miniS6.jpg">
+                </div>
+                <div class="item"> 
+                    <img class="box-serie"src="img/carrossel/miniS7.jpg">
+                </div>
+                <div class="item"> 
+                    <img class="box-serie"src="img/carrossel/miniS8.jpg">
+                </div>
+        </div>
+
+        <div class="carrossel-anima">
+            <h3 class="carrossel-txt">
+                Animações
+            </h3>
+            <div class="owl-carousel owl-theme">
+                <div class="item"> 
+                    <img class="box-serie"src="img/carrossel/miniA1.jpg">
+                </div>
+                <div class="item"> 
+                   <img class="box-serie"src="img/carrossel/miniA2.jpg">
+                </div>
+                <div class="item"> 
+                    <img class="box-serie"src="img/carrossel/miniA3.jpg">
+                </div>
+                <div class="item"> 
+                    <img class="box-serie"src="img/carrossel/miniA4.jpg">
+                </div>
+                <div class="item"> 
+                    <img class="box-serie"src="img/carrossel/miniA5.jpg">
+                </div>
+                <div class="item"> 
+                    <img class="box-serie"src="img/carrossel/miniA6.jpg">
+                </div>
+                <div class="item"> 
+                    <img class="box-serie"src="img/carrossel/miniA7.jpg">
+                </div>
+                <div class="item"> 
+                    <img class="box-serie"src="img/carrossel/miniA8.jpg">
+                </div>
+        </div>
+    </div>
+
+
+    </div>
+
+    <!--javascript-->
+    
+    <script src="https://kit.fontawesome.com/5961583786.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

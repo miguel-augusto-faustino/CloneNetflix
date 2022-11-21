@@ -1,0 +1,28 @@
+@media screen and (max-width:940px) {
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .perfil{
+        display: flex;
+        margin-top: 100px;
+        justify-content: center;
+        position: absolute;
+        right: auto;
+    }
+    .botaoinfo{
+        margin-top: 10px;
+        margin-left: auto;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .descricao{
+        width:50%;
+    }
+    
+}
+
+.caixapesquisa{
+    display:"none"
+}
